@@ -78,24 +78,50 @@
 .dto {
     width: 100%;
     text-align: center;
-    background-color: rgb(248, 248, 248);
     align-content: center;
-    padding: 50px 0;
+    padding: 50px 0 25px 0;
     margin-top: 20px;
+    border-top: 3px solid rgb(240, 240, 240);
+    border-bottom: 3px solid rgb(240, 240, 240);
 }
 .dto p {
     
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     border-bottom: 1px black solid; 
     text-align: center;
     margin-left:25%;
     margin-right:25%;
 }
-
-.contact {
+.info {
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: smaller;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(240, 240, 240);
+
+}
+.contact {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    justify-content: center;
+    color:rgb(83, 82, 82);
+    align-items: center;
+}
+.tlf {
+    color:rgb(66, 150, 122)
+}
+.tlficon {
+    width: 30px;
+}
+
+.line2 {
+ border: 1px black solid;
+ height: 19px;
 }
 
 footer {
@@ -104,12 +130,19 @@ footer {
     justify-content: space-around;
     padding: 50px 0px 50px 0px;
     flex-wrap: wrap;
+    font-size: smaller;
 }
 
 footer p {
-    margin: 15px 0px 15px 0px
+    margin: 15px 0px 15px 0px;
+    color:rgb(83, 82, 82);
+    font-weight: bold;
 }
 
 footer ul {
     list-style: none;
+}
+
+footer ul li {
+    margin-top:5px
 }
