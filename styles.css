@@ -1,0 +1,115 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.window {
+    position:fixed;
+    left: 0;
+    top: 0;
+    margin: 30px 10px
+}
+.ropa, .promociones {
+    font-weight: bold;
+}
+.promociones {
+    color:red
+}
+
+.mh {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    color:grey;
+}
+.line {
+ border-left: 1px black solid;
+}
+
+.tienda {
+    text-align: center;
+}
+.tienda p {
+    font-size: 12px;
+    padding-top: 12px;
+    font-weight: bold;
+    display:inline
+}
+
+.greytienda {
+    color:grey
+}
+.buscador {
+    width: 250px;
+    margin-right: 40px;
+}
+.vista {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    color:grey;
+    margin-right: 40px;
+    font-size: 10px;
+    
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+   
+.fotos {
+       text-align: center;
+       margin-top: 15px;
+   }
+
+   .fotos > img {
+    height: 420px;
+    margin: 15px;
+}
+.dto {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    align-content: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+.dto p {
+    
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px black solid; 
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.contact {
+    display: flex;
+    align-content: center;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 15px 0px 15px 0px
+}
+
+footer ul {
+    list-style: none;
+}
