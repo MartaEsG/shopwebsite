@@ -47,7 +47,7 @@
 }
 .buscador {
     width: 250px;
-    margin-right: 40px;
+    margin-right:0px;
 }
 .vista {
     list-style: none;
